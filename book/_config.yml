@@ -1,8 +1,8 @@
 # Jupyter Book configuration for the CSCI 504 textbook.
 # Reference: https://jupyterbook.org/en/stable/customize/config.html
 
-title: "Calculus and Matrix Fundamentals"
-author: "CSCI 504 — Data Science MS Bridge Course"
+title: "Calculus and Matrix Methods for Data Science"
+author: "Abdallah Alsammani, Ph.D."
 copyright: "2026"
 logo: ""
 
