@@ -54,10 +54,10 @@ html:
   home_page_in_navbar: true
   baseurl: ""
 
-repository:
-  url: https://github.com/YOUR-ORG/csci504-textbook   # update after creating the repo
-  path_to_book: book
-  branch: main
+  repository:
+     url: https://github.com/aalsammani/calculus4DS
+     path_to_book: book
+     branch: main
 
 launch_buttons:
   colab_url: "https://colab.research.google.com"
