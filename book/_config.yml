@@ -1,0 +1,63 @@
+# Jupyter Book configuration for the CSCI 504 textbook.
+# Reference: https://jupyterbook.org/en/stable/customize/config.html
+
+title: "Calculus and Matrix Fundamentals"
+author: "CSCI 504 — Data Science MS Bridge Course"
+copyright: "2026"
+logo: ""
+
+# Only build files listed in the table of contents.
+only_build_toc_files: true
+
+execute:
+  # Notebooks are executed at build time so every figure and output is
+  # reproducible. Markdown chapters embed static, pre-verified figures.
+  execute_notebooks: auto
+  timeout: 120
+
+latex:
+  latex_documents:
+    targetname: csci504-textbook.tex
+
+bibtex_bibfiles:
+  - references.bib
+
+sphinx:
+  config:
+    bibtex_reference_style: author_year
+    mathjax3_config:
+      tex:
+        macros:
+          # Book-wide notation macros (see the Notation Guide chapter).
+          vb: ["\\mathbf{#1}", 1]        # vectors: \vb{v}
+          R: "\\mathbb{R}"               # the real numbers
+          dd: "\\,d"                     # upright differential spacing
+    html_show_copyright: false
+  extra_extensions:
+    - sphinx_proof
+
+parse:
+  myst_enable_extensions:
+    - amsmath
+    - colon_fence
+    - deflist
+    - dollarmath
+    - linkify
+    - substitution
+    - tasklist
+
+html:
+  favicon: ""
+  use_edit_page_button: false
+  use_issues_button: false
+  use_repository_button: true
+  home_page_in_navbar: true
+  baseurl: ""
+
+repository:
+  url: https://github.com/YOUR-ORG/csci504-textbook   # update after creating the repo
+  path_to_book: book
+  branch: main
+
+launch_buttons:
+  colab_url: "https://colab.research.google.com"

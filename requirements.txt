@@ -1,0 +1,10 @@
+# Build and computational environment for the CSCI 504 textbook.
+# Install with:  pip install -r requirements.txt
+jupyter-book>=1.0,<2
+sphinx-proof>=0.2
+numpy>=1.26
+scipy>=1.11
+sympy>=1.12
+matplotlib>=3.8
+pandas>=2.1
+ipykernel>=6.29

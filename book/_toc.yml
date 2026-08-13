@@ -1,0 +1,63 @@
+# Table of contents for the CSCI 504 textbook.
+# Format: https://jupyterbook.org/en/stable/structure/toc.html
+
+format: jb-book
+root: index
+
+parts:
+  - caption: "Orientation"
+    chapters:
+      - file: getting-started
+      - file: notation
+
+  - caption: "Part 0 · Mathematical Foundations"
+    chapters:
+      - file: part0/ch01-functions
+      - file: part0/ch02-exp-log-trig
+
+  - caption: "Part I · Differential Calculus"
+    chapters:
+      - file: part1/ch03-limits-and-the-derivative
+      - file: part1/ch04-differentiation-rules
+      - file: part1/ch05-chain-rule-and-transcendentals
+      - file: part1/ch06-linearization-and-newton
+
+  - caption: "Part II · Integral Calculus"
+    chapters:
+      - file: part2/ch07-antiderivatives-and-ftc
+      - file: part2/ch08-substitution
+      - file: part2/ch09-areas-and-volumes
+      - file: part2/ch10-parts-and-trig-substitution
+      - file: part2/ch11-numerical-integration
+
+  - caption: "Part III · Series and Approximation"
+    chapters:
+      - file: part3/ch12-summation-sequences-series
+      - file: part3/ch13-power-and-taylor-series
+      - file: part3/ch14-fourier-series
+
+  - caption: "Part IV · Vectors and Matrix Fundamentals"
+    chapters:
+      - file: part4/ch15-vectors
+      - file: part4/ch16-dot-and-cross-products
+      - file: part4/ch17-matrices-and-operations
+      - file: part4/ch18-linear-systems
+      - file: part4/ch19-determinants
+      - file: part4/ch20-eigenvalues-eigenvectors
+
+  - caption: "Part V · Multivariable Calculus"
+    chapters:
+      - file: part5/ch21-vector-valued-functions
+      - file: part5/ch22-functions-of-several-variables
+      - file: part5/ch23-gradients-and-directional-derivatives
+      - file: part5/ch24-double-integrals
+      - file: part5/ch25-polar-coordinates
+
+  - caption: "Appendices"
+    chapters:
+      - file: appendices/a-algebra-refresher
+      - file: appendices/b-formula-sheet
+      - file: appendices/c-python-quickref
+      - file: appendices/d-selected-answers
+      - file: appendices/e-glossary
+      - file: appendices/bibliography
