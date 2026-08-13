@@ -1,10 +1,10 @@
 # Calculus and Matrix Methods for Data Science
 
-**A Bridge to Graduate Data Science**
+## *An Applied Introduction with Python*
 
 **Abdallah Alsammani, Ph.D.**  
 
-Assistant Professor of Mathematical Sciences -- Delaware State University
+*Assistant Professor of Mathematical Sciences -- Delaware State University*
 
 
 This book exists for a specific reader: a capable professional entering a Data Science master's program after several years away from mathematics. You may once have taken calculus and forgotten most of it, or you may never have seen linear algebra at all. Either way, the courses ahead of you — machine learning, statistical modeling, optimization — assume fluency with derivatives, integrals, series, vectors, matrices, and partial derivatives. This book rebuilds that fluency from the ground up, carefully and without condescension.
